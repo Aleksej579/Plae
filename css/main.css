@@ -1,0 +1,241 @@
+@font-face {
+  font-family: 'Nunito light';
+  font-family: 'Nunito-Regular';
+  font-family: 'Yantramanav-Regular';
+  font-family: 'Yantramanav-Thin';
+  font-family: 'Yantramanav-Light';
+  src: url("/fonts/Nunito-Light.ttf");
+  src: url("/fonts/Yantramanav-Regular.ttf");
+  src: url("/fonts/Yantramanav-Thin.ttf");
+  src: url("/fonts/Yantramanav-Light.ttf");
+  src: url("/fonts/Nunito-Regular.ttf");
+}
+.wrapSend {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#input {
+  height: 43px;
+  width: 310px;
+  border-radius: 22px 0 0 22px;
+  border: none;
+  padding-left: 50px;
+}
+#button {
+  height: 45px;
+  width: 165px;
+  background: #20ab50;
+  border: none;
+  color: #fff;
+  font-size: 20pt;
+  font-family: 'Nunito-Regular';
+  border-radius: 0 22px 22px 0;
+  cursor: pointer;
+}
+#button:hover {
+  background: none;
+  background-color: rgba(32,171,80,0.5);
+  border: 3px solid #20ab50;
+}
+.sliderFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.sliderOnlyWrapper {
+  width: 50%;
+}
+.sliderNav {
+  height: 100px;
+  margin: 0 auto;
+}
+.imgSlider {
+  display: none;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.imgSlider:first-child {
+  display: block;
+}
+.imgSliderMin {
+  height: 40px;
+  width: 55px;
+  margin: 5px auto;
+  display: none;
+  text-align: center;
+  line-height: 100px;
+}
+.imgSliderMin:first-child {
+  display: block;
+}
+.ulImgSliderMin {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+}
+#btnPrev {
+  height: 50px;
+  width: 50px;
+  background: none;
+  border-radius: 25px;
+  border: 1px solid #808080;
+  color: #808080;
+  cursor: pointer;
+}
+#btnNext {
+  height: 50px;
+  width: 50px;
+  background: none;
+  border-radius: 25px;
+  border: 1px solid #808080;
+  color: #808080;
+  cursor: pointer;
+}
+.sliderText {
+  text-align: center;
+  font-family: Nunito light;
+}
+footer {
+  height: 450px;
+  width: 100%;
+  background: #f3f3f3;
+  position: relative;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+padding-top
+}
+.endFotter {
+  height: 40px;
+  width: 100%;
+  background: #dcdcdc;
+  color: #fff;
+  line-height: 40px;
+  padding-left: 38px;
+  font-family: 'Yantramanav-Regular';
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: #85c998;
+}
+#tabs {
+  padding: 0;
+  margin: 0;
+}
+section {
+  width: 100%;
+  height: 100vh;
+  padding-top: 0;
+  padding-bottom: 0;
+  overflow-x: hidden;
+}
+.scroll {
+  overflow: auto;
+}
+.wrapGrate {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.textGrete {
+  color: #fff;
+  font-size: 60pt;
+  font-family: 'Nunito light';
+  text-align: center;
+}
+.textGreteSecond {
+  color: #fff;
+  font-size: 20pt;
+  font-family: 'Yantramanav-Light';
+  text-align: center;
+}
+img {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.bg_1 {
+  background: url("/img/bg_1.png") no-repeat center top/cover;
+}
+.flex {
+  height: 100%;
+  display: flex;
+}
+.wrapText {
+  width: 30%;
+  height: auto;
+  padding: 10%;
+  color: #000;
+  font-size: 11px;
+  font-family: "Nunito light";
+  text-align: center;
+}
+.wrapTextH1Left {
+  text-align: left;
+}
+.wrapTextH1Right {
+  text-align: right;
+}
+.wrapImgPage_2 {
+  width: 50%;
+  height: auto;
+  background: url("/img/bg_2.png") no-repeat center top/cover;
+}
+.wrapImgPage_3 {
+  width: 50%;
+  height: auto;
+  background: url("/img/bg_3.png") no-repeat center top/cover;
+}
+.wrapImgPage_4 {
+  width: 50%;
+  height: auto;
+  background: url("/img/bg_4.png") no-repeat center top/cover;
+}
+.bg_2 {
+  background: #e1e0e1 url("/img/bg_6_v-1.png") no-repeat center;
+  background-size: contain;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.boxText {
+  height: 140px;
+  width: 140px;
+  margin: 25px;
+}
+.h1Box {
+  text-align: center;
+  font-family: 'Nunito light';
+}
+.pBoxMain {
+  text-align: center;
+  font-family: 'Yantramanav-Regular';
+  color: #8d8d8d;
+}
+.pBox {
+  color: #8d8d8d;
+  line-height: 5px;
+  font-family: 'Yantramanav-Thin';
+}
+.bold {
+  font-weight: bold;
+  color: #000;
+}
+.green {
+  color: #85c998;
+}
+.wrapEmailMobile {
+  display: flex;
+  justify-content: space-around;
+}

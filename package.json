@@ -1,0 +1,11 @@
+{
+  "name": "plae",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "start pug -w index.pug & stylus -w ./css/main.styl"
+  },
+  "author": "",
+  "license": "ISC"
+}
