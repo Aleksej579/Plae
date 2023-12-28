@@ -4,11 +4,11 @@
   font-family: 'Yantramanav-Regular';
   font-family: 'Yantramanav-Thin';
   font-family: 'Yantramanav-Light';
-  src: url("/fonts/Nunito-Light.ttf");
-  src: url("/fonts/Yantramanav-Regular.ttf");
-  src: url("/fonts/Yantramanav-Thin.ttf");
-  src: url("/fonts/Yantramanav-Light.ttf");
-  src: url("/fonts/Nunito-Regular.ttf");
+  src: url("../fonts/Nunito-Light.ttf");
+  src: url("../fonts/Yantramanav-Regular.ttf");
+  src: url("../fonts/Yantramanav-Thin.ttf");
+  src: url("../fonts/Yantramanav-Light.ttf");
+  src: url("../fonts/Nunito-Regular.ttf");
 }
 .wrapSend {
   display: flex;
@@ -165,7 +165,7 @@ img {
   margin-top: 20px;
 }
 .bg_1 {
-  background: url("/img/bg_1.png") no-repeat center top/cover;
+  background: url("../img/bg_1.png") no-repeat center top/cover;
 }
 .flex {
   height: 100%;
@@ -189,20 +189,20 @@ img {
 .wrapImgPage_2 {
   width: 50%;
   height: auto;
-  background: url("/img/bg_2.png") no-repeat center top/cover;
+  background: url("../img/bg_2.png") no-repeat center top/cover;
 }
 .wrapImgPage_3 {
   width: 50%;
   height: auto;
-  background: url("/img/bg_3.png") no-repeat center top/cover;
+  background: url("../img/bg_3.png") no-repeat center top/cover;
 }
 .wrapImgPage_4 {
   width: 50%;
   height: auto;
-  background: url("/img/bg_4.png") no-repeat center top/cover;
+  background: url("../img/bg_4.png") no-repeat center top/cover;
 }
 .bg_2 {
-  background: #e1e0e1 url("/img/bg_6_v-1.png") no-repeat center;
+  background: #e1e0e1 url("../img/bg_6_v-1.png") no-repeat center;
   background-size: contain;
 }
 .box {
